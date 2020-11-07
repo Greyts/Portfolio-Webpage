@@ -7,7 +7,7 @@ body{
 .header{
     background: url("../images/krasnalHeader-bez-1.jpg");
     background-color: #FFE2D1;
-    display:flex;
+    background-attachment: fixed;
     background-position-x: 140%;
     background-repeat: no-repeat;
     height:250px;  
