@@ -1,0 +1,108 @@
+*{
+    margin:0
+}
+body{
+    background: #e1f0c4;
+}
+.header{
+    background: url("/images/krasnalHeader-bez-1.jpg");
+    background-color: #FFE2D1;
+    display:flex;
+    background-position-x: 140%;
+    background-repeat: no-repeat;
+    height:250px;  
+}
+.footer{
+    color: black;
+    position: relative;
+    float:right
+}
+.fa-home{
+    color:black;
+    margin: 15px
+}
+.fa-home:hover{
+    text-shadow: 1px 1px 2px rgb(29, 28, 28);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.banner{
+    height: 50px;
+    background: #55917f;
+    display:flex;
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+.fa-github-square{
+    margin:15px;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(75, 74, 74);
+}
+.fa-github-square:hover{
+    text-shadow: 1px 1px 3px rgb(29, 28, 28);
+    transition: 0.7s;
+    transform: translateY(10px);
+}
+.fa-instagram{
+    margin-top: 15px;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(75, 74, 74);
+}
+.fa-instagram:hover{
+    text-shadow: 1px 1px 3px rgb(29, 28, 28);
+    transition: 0.7s;
+    transform: translateY(10px);
+}
+.dane{
+    margin: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px rgb(78, 77, 77);
+}
+li{
+    transform: translateY(10px);
+    list-style-type: none;
+}
+.gradient{
+    height: 40px;
+    display: flex;
+    position: sticky;
+    top:40px;
+    background: linear-gradient(to right,rgb(225, 240, 196,0.4), rgb(225, 240, 196,1));
+    z-index: 1;
+}
+.photo-left{
+    position: relative;
+    float:left;
+    border-radius: 10%;
+    transition: .2s;
+}
+.photo-right{
+    position: relative;
+    float:right;
+    border-radius: 10%;
+    transition: .2s;
+}
+.photo-left:hover{
+    transform: scale(1.1);
+    z-index:3
+}
+.photo-right:hover{
+    transform: scale(1.1);
+    z-index:3
+}
+.row-right{
+    height: 500px;
+    background: rgb(94, 76, 90, 0.3);
+    margin-top:20px;
+    margin-bottom: 120px;
+    margin-left: 40px;
+}
+.row-left{
+    height: 500px;
+    background: rgb(94, 76, 90, 0.3);
+    margin-top:20px;
+    margin-bottom: 120px;
+    margin-right: 40px;
+}
