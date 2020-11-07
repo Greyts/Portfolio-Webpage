@@ -5,10 +5,10 @@ body{
     background: #e1f0c4;
 }
 .header{
-    background: url("./images/krasnalHeader-bez-1.jpg");
+    background: url("../images/krasnalHeader-bez-1.jpg");
     background-color: #FFE2D1;
     display:flex;
-    background-position-x: 140%;
+    background-position-x: 40%;
     background-repeat: no-repeat;
     height:250px;  
 }
