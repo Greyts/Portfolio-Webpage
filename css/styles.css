@@ -3,11 +3,15 @@
 }
 body{
     background: #e1f0c4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    line-height: 1.8;
 }
 .header{
     background: url("/images/krasnalHeader-bez-1.jpg");
     background-color: #FFE2D1;
-    display:flex;
+    background-attachment: fixed;
     background-position-x: 140%;
     background-repeat: no-repeat;
     height:250px;  
@@ -72,15 +76,33 @@ li{
     background: linear-gradient(to right,rgb(225, 240, 196,0.4), rgb(225, 240, 196,1));
     z-index: 1;
 }
+.p-left{
+    position: relative;
+    padding: 2%;
+    margin-top: 3%;
+    text-align:justify;
+    width: 60%;
+    float:left
+}
+.p-right{
+    position: relative;
+    float: right;
+    margin-top: 3%;
+    padding: 2%;
+    width: 67%;
+    text-align: justify;
+}
 .photo-left{
     position: relative;
     float:left;
+    transform: translate(10%, -5%);
     border-radius: 10%;
     transition: .2s;
 }
 .photo-right{
     position: relative;
     float:right;
+    transform: translate(-10%, -5%);
     border-radius: 10%;
     transition: .2s;
 }
@@ -92,13 +114,6 @@ li{
     transform: scale(1.1);
     z-index:3
 }
-.row-right{
-    height: 500px;
-    background: rgb(94, 76, 90, 0.3);
-    margin-top:20px;
-    margin-bottom: 120px;
-    margin-left: 40px;
-}
 .row-left{
     height: 500px;
     background: rgb(94, 76, 90, 0.3);
@@ -106,3 +121,11 @@ li{
     margin-bottom: 120px;
     margin-right: 40px;
 }
+.row-right{
+    height: 500px;
+    background: rgb(94, 76, 90, 0.3);
+    margin-top:40px;
+    margin-bottom: 120px;
+    margin-left: 40px;
+}
+
