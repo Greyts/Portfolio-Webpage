@@ -5,7 +5,7 @@ body{
     background: #e1f0c4;
 }
 .header{
-    background: url("https://github.com/Greyts/Portolio-Webpage/blob/master/images/krasnalHeader-bez-1.jpg?raw=true");
+    background: url("../images/krasnalHeader-bez-1.jpg");
     background-color: #FFE2D1;
     display:flex;
     background-position-x: 140%;
