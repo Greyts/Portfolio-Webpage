@@ -9,7 +9,7 @@ p {
   line-height: 1.8;
 }
 .header {
-  background: url("../images/krasnalHeader-bez-1-right.jpg");
+  background: url("https://github.com/Greyts/Portfolio-Webpage/blob/master/images/krasnalHeader-bez-1-right.jpg?raw=true");
   background-color: #ffe2d1;
   background-attachment: fixed;
   background-position-x: right;
